@@ -41,10 +41,10 @@ const RegisterForm = props => {
 
   return (
     <ContentLayout>
-      <h3>Registrarme</h3>
       {
-        false ? <RegisterSuccess /> :
+        registerSuccess ? <RegisterSuccess /> :
           <>
+            <h3>Registrarme</h3>
             <p style={{ marginBottom: "2rem" }}>Completa los campos para registrarte.</p>
             {error && <FormError error={error} />}
             <Input
@@ -70,17 +70,17 @@ const RegisterForm = props => {
             >
               {isLoading ? <Loader color="white" /> : "Registrarme"}
             </Button>
+            <div className="toLogin">
+              ¿Ya tienes un usuario?
+              <div
+                className="pStyle"
+                onClick={setFormType}
+              >
+                Inicia sesión
+              </div>
+            </div>
           </>
       }
-      <div className="toLogin">
-        ¿Ya tienes un usuario?
-        <div
-          className="pStyle"
-          onClick={setFormType}
-        >
-          Inicia sesión
-        </div>
-      </div>
     </ContentLayout>
   );
 };

@@ -8,9 +8,9 @@ import Button from '../Button';
 const RegisterSuccess = props => {
   return (
     <ContentLayout>
-      <MdCheckCircle />
-      <h3>Usuario creado correctamente</h3>
-      <Button>
+      <MdCheckCircle className="svgCustom" />
+      <h3 id="myH3">Usuario creado correctamente</h3>
+      <Button className="backButton">
         <MdArrowBack /> In al login
       </Button>
     </ContentLayout>
@@ -18,9 +18,29 @@ const RegisterSuccess = props => {
 };
 
 const ContentLayout = styled.div`
-  svg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  #myH3{
+    font-size: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .backButton{
+    width:60%; 
+    background-color:${({ theme }) => theme.palette.green};
+    display: flex;
+    justify-content: center;
+    svg{
+      font-size:1.5rem;
+    }
+  }
+
+  .svgCustom{
     color:${({ theme }) => theme.palette.green};
-    font-size:3rem;
+    font-size:5rem;
   }
 `;
 

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/turnos/static/js/main.a72958f4.chunk.js",
-    "main.js.map": "/turnos/static/js/main.a72958f4.chunk.js.map",
+    "main.js": "/turnos/static/js/main.909e82c6.chunk.js",
+    "main.js.map": "/turnos/static/js/main.909e82c6.chunk.js.map",
     "runtime-main.js": "/turnos/static/js/runtime-main.26641059.js",
     "runtime-main.js.map": "/turnos/static/js/runtime-main.26641059.js.map",
-    "static/js/2.b9d439b1.chunk.js": "/turnos/static/js/2.b9d439b1.chunk.js",
-    "static/js/2.b9d439b1.chunk.js.map": "/turnos/static/js/2.b9d439b1.chunk.js.map",
+    "static/js/2.61b937a5.chunk.js": "/turnos/static/js/2.61b937a5.chunk.js",
+    "static/js/2.61b937a5.chunk.js.map": "/turnos/static/js/2.61b937a5.chunk.js.map",
     "index.html": "/turnos/index.html",
-    "precache-manifest.dd368068ae22ceda611a764ff414bc02.js": "/turnos/precache-manifest.dd368068ae22ceda611a764ff414bc02.js",
+    "precache-manifest.c02c84cac24eeec74b440c429fdb3cb2.js": "/turnos/precache-manifest.c02c84cac24eeec74b440c429fdb3cb2.js",
     "service-worker.js": "/turnos/service-worker.js",
-    "static/js/2.b9d439b1.chunk.js.LICENSE.txt": "/turnos/static/js/2.b9d439b1.chunk.js.LICENSE.txt"
+    "static/js/2.61b937a5.chunk.js.LICENSE.txt": "/turnos/static/js/2.61b937a5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.26641059.js",
-    "static/js/2.b9d439b1.chunk.js",
-    "static/js/main.a72958f4.chunk.js"
+    "static/js/2.61b937a5.chunk.js",
+    "static/js/main.909e82c6.chunk.js"
   ]
 }
